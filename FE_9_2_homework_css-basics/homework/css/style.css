@@ -1,0 +1,140 @@
+@media print{
+	#about,
+	.tm-sidebar,
+
+    section:not(:first-of-type) {
+        display: none;
+    }
+    .tm-main-content{
+    	margin-left: 0;
+    	padding-left: 0;
+    }
+    body{
+    	font-weight: normal;
+    }
+    #home{
+    	height: 260px;
+    	}
+    .tm-banner-inner{
+    	height:200px;
+    }
+    h2.tm-section-title {
+    color: #3343ff;
+	}
+	.flex-2-col{
+		display:block;
+	}
+	.tm-team-description-container{
+		max-width:1300px;
+	}
+	.tm-content-box {
+    	margin-bottom: 0px;
+	}
+	.pad{
+		padding-bottom: 0;
+		padding-right: 50px;
+		padding-left: 50px;
+		padding-top: 0;
+	}
+	img{
+		display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+	}
+	.text-xs-center{
+		margin-top: 16px;
+	}
+}
+
+@media screen{
+	.thumbnail{
+	 	border-radius: 50%
+	 }
+	h2.tm-box-bg-title{
+		background-color: white;
+	}
+	h2.tm-box-bg-title:hover{
+		background-color: #31b0d5;
+		color:white;
+		font-weight: bold;
+	}
+	p::first-letter{
+		font-size: 30px;
+		color: #76cdd7;
+	}
+	.tm-content-box , .tm-sidebar{
+	    box-shadow: 0 0 25px rgba(0,0,0,0.5); 
+	}
+	
+	.tm-main-content section:nth-child(2)::before,
+	.tm-main-content section:nth-child(3)::before,
+	.tm-main-content section:nth-child(5)::before{
+	content: '';
+	width: 0;
+	height: 0;	
+	border-top: 20px solid #5ce;
+	border-right: 100px solid transparent;
+
+	}
+
+
+	#ideas .tm-section-title{
+		color:gainsboro ;
+		letter-spacing: 5px;
+
+	}
+	h2 + p{
+		font-style: italic;
+	}
+	div.tm-content-box > div.pad > p {
+		text-indent: 1.5em;
+		line-height: 2em;
+	}
+	
+	
+	.pad ol a {
+		color: black;
+	}
+	
+	.pad ol a:hover{
+		text-decoration: underline double;
+		color: #76cdd7
+	}
+	.pad ol a.text::after{
+		content: 'New';
+		vertical-align:super;
+		color: red;
+		font-size: 10px;
+	}
+	section.heading h2{
+		text-align: center;
+		color: #76cdd7
+	}
+	.tm-main-nav  li:not(:nth-last-of-type(1)){
+		border-bottom: dotted 2px silver;   
+	}
+	ul.boxes li.box:nth-child(odd){
+		background-color: whitesmoke;
+	}
+	ul.boxes li.box p::first-letter{
+		color: black;
+	}
+	.submit-btn{
+		color: red;
+	}
+	.form-control{
+		color:red;
+	}
+	.mandatory-field::after{
+		content: '*';
+		color:red;
+		font-weight: bold;
+	}
+	.btn:hover{
+		color: white;
+		background-color: #31b0d5;
+	}
+
+
+}
+
