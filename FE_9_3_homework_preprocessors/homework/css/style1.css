@@ -1,0 +1,237 @@
+/* line 1, C:/Downloads/FE_9_3_homework_preprocessors/FE_9_3_homework_preprocessors/homework/scss/_main.scss */
+body {
+  width: 960px;
+  margin: auto;
+  font-family: Sans-Serif;
+  background-color: #ffffff;
+}
+
+/* line 7, C:/Downloads/FE_9_3_homework_preprocessors/FE_9_3_homework_preprocessors/homework/scss/_main.scss */
+header {
+  width: 960px;
+  height: 250px;
+}
+
+/* line 10, C:/Downloads/FE_9_3_homework_preprocessors/FE_9_3_homework_preprocessors/homework/scss/_main.scss */
+header div.logo {
+  width: 350px;
+  float: left;
+}
+
+/* line 13, C:/Downloads/FE_9_3_homework_preprocessors/FE_9_3_homework_preprocessors/homework/scss/_main.scss */
+header div.logo img {
+  width: 350px;
+  height: auto;
+}
+
+/* line 18, C:/Downloads/FE_9_3_homework_preprocessors/FE_9_3_homework_preprocessors/homework/scss/_main.scss */
+header nav {
+  width: 610px;
+  float: right;
+  border-top: 1px solid #617d8a;
+  border-bottom: 1px solid #617d8a;
+  margin-top: 145px;
+  padding: 15px 0;
+}
+
+/* line 25, C:/Downloads/FE_9_3_homework_preprocessors/FE_9_3_homework_preprocessors/homework/scss/_main.scss */
+header nav a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #1fbcd3;
+  text-transform: uppercase;
+  padding: 0 70px;
+}
+
+/* line 31, C:/Downloads/FE_9_3_homework_preprocessors/FE_9_3_homework_preprocessors/homework/scss/_main.scss */
+header nav a:nth-child(1) {
+  padding: 0 70px 0  95px;
+}
+
+/* line 34, C:/Downloads/FE_9_3_homework_preprocessors/FE_9_3_homework_preprocessors/homework/scss/_main.scss */
+header nav a:nth-child(3) {
+  padding: 0 40px 0  89px;
+}
+
+/* line 42, C:/Downloads/FE_9_3_homework_preprocessors/FE_9_3_homework_preprocessors/homework/scss/_main.scss */
+article {
+  width: 445px;
+  background-color: #efefef;
+  float: left;
+  padding: 10px;
+}
+
+/* line 47, C:/Downloads/FE_9_3_homework_preprocessors/FE_9_3_homework_preprocessors/homework/scss/_main.scss */
+article div {
+  padding: 1px 5px 5px 5px;
+}
+
+/* line 49, C:/Downloads/FE_9_3_homework_preprocessors/FE_9_3_homework_preprocessors/homework/scss/_main.scss */
+article div div {
+  font-size: 11px;
+  color: #159587;
+}
+
+/* line 53, C:/Downloads/FE_9_3_homework_preprocessors/FE_9_3_homework_preprocessors/homework/scss/_main.scss */
+article div p {
+  font-size: 15px;
+  width: 418px;
+  line-height: 1.5;
+  color: #617d8a;
+}
+
+/* line 58, C:/Downloads/FE_9_3_homework_preprocessors/FE_9_3_homework_preprocessors/homework/scss/_main.scss */
+article div p:first-of-type {
+  margin-top: 0px;
+}
+
+/* line 63, C:/Downloads/FE_9_3_homework_preprocessors/FE_9_3_homework_preprocessors/homework/scss/_main.scss */
+article img {
+  width: 445px;
+  height: auto;
+}
+
+/* line 67, C:/Downloads/FE_9_3_homework_preprocessors/FE_9_3_homework_preprocessors/homework/scss/_main.scss */
+article:nth-child(odd) {
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+/* line 71, C:/Downloads/FE_9_3_homework_preprocessors/FE_9_3_homework_preprocessors/homework/scss/_main.scss */
+article:nth-child(even) {
+  margin-bottom: 20px;
+}
+
+/* line 74, C:/Downloads/FE_9_3_homework_preprocessors/FE_9_3_homework_preprocessors/homework/scss/_main.scss */
+article:nth-child(2) {
+  margin-bottom: 120px;
+}
+
+/* line 77, C:/Downloads/FE_9_3_homework_preprocessors/FE_9_3_homework_preprocessors/homework/scss/_main.scss */
+article h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-top: 1px solid #617d8a;
+  padding-top: 5px;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #1697a6;
+}
+
+/* line 88, C:/Downloads/FE_9_3_homework_preprocessors/FE_9_3_homework_preprocessors/homework/scss/_main.scss */
+div.toolbar {
+  padding-bottom: 20px;
+  float: right;
+  width: 960px;
+}
+
+/* line 92, C:/Downloads/FE_9_3_homework_preprocessors/FE_9_3_homework_preprocessors/homework/scss/_main.scss */
+div.toolbar input {
+  float: right;
+  padding: 10px;
+  border: 1px solid #1fbcd3;
+  background-color: #ffffff;
+}
+
+/* line 97, C:/Downloads/FE_9_3_homework_preprocessors/FE_9_3_homework_preprocessors/homework/scss/_main.scss */
+div.toolbar input::placeholder {
+  color: #1fbcd3;
+}
+
+/* line 102, C:/Downloads/FE_9_3_homework_preprocessors/FE_9_3_homework_preprocessors/homework/scss/_main.scss */
+section {
+  width: 960px;
+}
+
+/* line 104, C:/Downloads/FE_9_3_homework_preprocessors/FE_9_3_homework_preprocessors/homework/scss/_main.scss */
+section div {
+  width: 960px;
+}
+
+/* line 106, C:/Downloads/FE_9_3_homework_preprocessors/FE_9_3_homework_preprocessors/homework/scss/_main.scss */
+section div h1 {
+  width: 960px;
+  text-align: right;
+  margin-top: 1775px;
+  margin-bottom: 0px;
+}
+
+/* line 112, C:/Downloads/FE_9_3_homework_preprocessors/FE_9_3_homework_preprocessors/homework/scss/_main.scss */
+section div p {
+  width: 950px;
+  margin-top: 0px;
+  margin-left: 10px;
+  color: #617d8a;
+}
+
+/* line 118, C:/Downloads/FE_9_3_homework_preprocessors/FE_9_3_homework_preprocessors/homework/scss/_main.scss */
+section div img {
+  width: 950px;
+  height: auto;
+  margin-left: 10px;
+}
+
+/* line 124, C:/Downloads/FE_9_3_homework_preprocessors/FE_9_3_homework_preprocessors/homework/scss/_main.scss */
+section h1 {
+  text-align: right;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  color: #1fbcd3;
+}
+
+/* line 131, C:/Downloads/FE_9_3_homework_preprocessors/FE_9_3_homework_preprocessors/homework/scss/_main.scss */
+section h4 {
+  text-align: right;
+  margin-top: 0px;
+  color: #1fbcd3;
+}
+
+/* line 136, C:/Downloads/FE_9_3_homework_preprocessors/FE_9_3_homework_preprocessors/homework/scss/_main.scss */
+section form {
+  width: 960px;
+}
+
+/* line 139, C:/Downloads/FE_9_3_homework_preprocessors/FE_9_3_homework_preprocessors/homework/scss/_main.scss */
+section form div input, section form div textarea {
+  width: 939px;
+  padding: 10px;
+  margin: 0px;
+  margin-bottom: 20px;
+  border: 1px solid grey;
+  background-color: #ffffff;
+}
+
+/* line 148, C:/Downloads/FE_9_3_homework_preprocessors/FE_9_3_homework_preprocessors/homework/scss/_main.scss */
+section form button {
+  margin-left: 760px;
+  background-color: #1fbcd3;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-left-width: 0px;
+  border-top-width: 0px;
+  width: 200px;
+  padding: 10px;
+  color: white;
+}
+
+/* line 162, C:/Downloads/FE_9_3_homework_preprocessors/FE_9_3_homework_preprocessors/homework/scss/_main.scss */
+footer {
+  width: 960px;
+}
+
+/* line 164, C:/Downloads/FE_9_3_homework_preprocessors/FE_9_3_homework_preprocessors/homework/scss/_main.scss */
+footer span {
+  width: 200px;
+  height: auto;
+  font-size: 10px;
+  padding-bottom: 10px;
+  color: #617d8a;
+}
+
+/* line 173, C:/Downloads/FE_9_3_homework_preprocessors/FE_9_3_homework_preprocessors/homework/scss/_main.scss */
+#contact h4 {
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=../css/style1.map */
