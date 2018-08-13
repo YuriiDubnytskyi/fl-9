@@ -1,0 +1,150 @@
+body{
+  background-color: #0a1223;
+  font-family: Sans-Serif;
+}
+header{
+  width: 100%;
+  height: 100px;
+}
+a{
+  text-decoration: none;
+  color: #5d5d5d;
+  padding: 20px;
+}
+nav{
+  padding-top: 10px;
+  display: flex;  
+  justify-content: flex-end;
+  
+}
+a:hover{
+  color: #54597d;
+}
+a:active{
+  color: #54597d; 
+}
+section{
+  width: 90%;
+  margin: 100px auto 0 auto;
+}
+h1{
+  color: #ddd;
+  font-size: 35px;
+  font-size: 5vw;
+  text-align: center;
+  width: auto;
+  height: auto;
+}
+article{
+  width:80%;
+  margin: 0 auto 50px auto;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+
+}
+p{
+  text-indent: 20px;
+  text-align: justify;
+}
+article div{
+  width: 50%;
+}
+img{
+  max-width: 50%;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  }
+.color-h2{
+    background: linear-gradient(to right, #ddd, #5d5d5d);   
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.color-p{
+  color: #5d5d5d;
+}
+article:nth-child(even) {
+  flex-direction: row-reverse;
+}
+article:nth-child(odd) {
+  flex-direction: row;
+}
+.page-up{
+    display: none;
+  }
+@media (max-width: 991px) {
+  nav {
+    justify-content: center;
+  }
+  article:nth-child(odd){
+    display: flex;
+    flex-direction: column;
+  }
+  article:nth-child(even){
+    display: flex;
+    flex-direction: column;
+  }
+  article div{
+    width: 85%;
+  }
+  img{
+    max-width:85%;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+  }
+  .page-up{
+    display: none;
+  }
+}
+@media (max-width: 575px) {
+  body{
+    background: #fff;
+  }
+  nav{
+    flex-direction: column;
+    padding: 0;
+  }
+  a{
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+  }
+  a:active{
+    font-weight: bold;
+  }
+  article{
+    width: 100%;
+    color: #ddd;
+  }
+  article div{
+    width: 100%;
+  }
+  h1{
+    font-size: 50px;
+    color: #000;
+    margin-top:70px; 
+  }
+  .color-h2{
+    background: unset;   
+    -webkit-text-fill-color: unset;
+    -webkit-background-clip: unset;
+    color: #484747;
+  }
+  .page-up{
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    background-color :#5ebcff;
+    color: #fff;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 10px 10px 20px lightgray;
+  }
+}
