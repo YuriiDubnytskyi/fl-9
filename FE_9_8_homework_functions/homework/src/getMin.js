@@ -9,4 +9,3 @@ function getMin() {
     }
     console.log(minNumber);
 }
-getMin();
