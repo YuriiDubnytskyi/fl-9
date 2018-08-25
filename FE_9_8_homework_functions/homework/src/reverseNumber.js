@@ -11,4 +11,3 @@ function reverseNumber(n) {
 
 
 }
-console.log(reverseNumber());
