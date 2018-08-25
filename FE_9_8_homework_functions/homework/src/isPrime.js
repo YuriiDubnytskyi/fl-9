@@ -9,4 +9,3 @@ function isPrime(a) {
     }
     console.log(prim);
 }
-isPrime();
