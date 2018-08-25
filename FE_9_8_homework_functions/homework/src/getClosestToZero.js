@@ -9,4 +9,3 @@ function getClosestToZero() {
     }
     console.log(numbreToZero);
 }
-getClosestToZero();
