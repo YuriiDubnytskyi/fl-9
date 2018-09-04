@@ -17,7 +17,8 @@ buttonAdd.appendChild(txtButtonAdd);
 //--------------------
 var hr = document.createElement('hr');
 //--------------------
-
+const ten = 10;
+const zero = 0;
 //--------------------
 var img = document.createElement('img');
 img.setAttribute('src','./assets/img/cat.png');
@@ -41,7 +42,7 @@ function newElement() {
     ul.className = 'myUl';
     if (inputValue === '') {
         alert('You must write something!');
-    }else if (close.length === 10){
+    }else if (close.length === ten){
         alert('Maximum item per list are created');
     } else {
         li.appendChild(buttonClose);
@@ -56,14 +57,14 @@ function newElement() {
 
 
     let i;
-    for (i = 0; i < close.length; i++) {
+    for (i = zero; i < close.length; i++) {
         close[i].onclick = function() {
             let div = this.parentElement;
             div.style.display = 'none';
 
         }
     }
-    for (i = 0; i < add.length; i++) {
+    for (i = zero; i < add.length; i++) {
         add[i].onclick = function() {
             let div = this;
             div.style.display = 'none';
